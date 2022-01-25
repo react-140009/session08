@@ -1,0 +1,24 @@
+HATMAN VPN ya Shecan.ir
+https://reactnative.dev/docs/environment-setup
+
+0. nodejs
+1. download & install JDK 
+  https://dl3.downloadly.ir/Files/Software/Java_SE_Development_Kit_17.0.2_x64_Downloadly.ir.rar
+2. set JAVA_HOME
+3. download gradle & add to PATH
+4. download & install Android Studio
+5. add ANDROID_STUDIO
+6. add platform-tools to PATH
+
+
+npx react-native init <project_name> --template react-native-template-typescript
+
+npx react-native start
+npx react-native run-android
+
+adb devices
+
+
+enable hermes
+  app/build.gradle 
+    enableHermes: true,
